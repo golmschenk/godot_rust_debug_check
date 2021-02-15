@@ -30,6 +30,7 @@ There is Rust library which contains two simple functions. One is a print, sleep
 * The same issue occurs when calling the library from Godot.
 * In both cases, the IDE is properly attached to the process, and will catch interrupt signals. However, the one case allow for breakpoints in the source code while the other does not. This suggests there's something happening with the debug symbols.
 * Running the same code from a Rust executable does not have this problem.
+* The GDNative initialization macro is not being called by the C code, it is only being included or excluded from the library.
 
 ## Software
 
