@@ -16,7 +16,7 @@ Initialing Rust GDNative seems to break debug symbols in some way when called fr
     * `./call_rust_from_c`
 6. Attach to process from IDE. Does not halt at breakpoint.
 7. Comment out `godot_gdnative_init!();` line in `src/lib.rs`.
-8. Rebuild Rust library.
+8. Rebuild Rust library (ignore expected "unused" warning).
     * `cargo build`
 9. Run C executable.
     * `./call_rust_from_c`
