@@ -201,3 +201,6 @@ dkms.conf
 *.out
 *.app
 
+
+
+call_rust_from_c
